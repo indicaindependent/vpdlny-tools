@@ -1,2 +1,77 @@
-# vpdlny-tools
-📚 The VPDLNY open tools mission — architecture, philosophy, and index of all open-source tools
+<div align="center">
+
+# 📚 VPDLNY Tools
+
+**Vulnerable Persons Defense League of New York — open-source intelligence toolkit**
+
+[![VPDLNY](https://img.shields.io/badge/VPDLNY-Mission-8B0000?style=for-the-badge)](https://osintnet.uk)
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+## Who We Are
+
+**VPDLNY** (Vulnerable Persons Defense League of New York) is a collective of technologists, artists, and researchers based in New York City.
+
+Our mission: use knowledge and information — never violence — to defend marginalized and vulnerable people against powerful entities and institutions.
+
+> *Information asymmetry is how the powerful stay powerful. We close the gap.*
+
+---
+
+## Our Tools (All Open Source)
+
+| Tool | Description | Status |
+|------|-------------|--------|
+| [FaceHeatMap](https://faceheatmap.app) | US facial recognition contract tracker | 🟢 Live |
+| [WarHeatMap](https://warheatmap.app) | Global conflict intelligence platform | 🟢 Live |
+| [StraitTracker](https://tracker.warheatmap.app) | Strait of Hormuz geopolitical intelligence | 🟢 Live |
+| [CapWatch Public](https://osintnet.uk) | Capitol surveillance tracker | 🟢 Live |
+| [EdgeIntel](https://intel.osintnet.uk) | OSINT news aggregation platform | 🟢 Live |
+| [CF OSINT Toolkit](https://github.com/indicaindependent/cf-osint-toolkit) | Cloudflare Workers OSINT patterns | 🟢 Open Source |
+| [Bluesky Campaign Engine](https://github.com/indicaindependent/bsky-campaign-engine) | AT Protocol campaign automation | 🟢 Open Source |
+| [VibesMom](https://github.com/indicaindependent/vibesmom) | AI mental health support bot | 🟢 Open Source |
+
+---
+
+## Architecture Philosophy
+
+All VPDLNY tools are built on the same stack:
+
+```
+Cloudflare Workers (edge compute, zero cold start)
+     + D1 (SQLite at edge, primary data)
+     + KV (cache, flags, rate limits)
+     + R2 (images, documents, blobs)
+     + Anthropic Claude (AI reasoning)
+     + AT Protocol (Bluesky, open social)
+     + Bitcoin (sovereign payments, no middlemen)
+```
+
+No AWS. No GCP. No Azure. No vendor lock-in. No surveillance capitalism.
+
+---
+
+## Support the Mission
+
+All tools are free. If you find them useful:
+
+**Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
+
+---
+
+## Get Involved
+
+- Open an issue on any tool repo
+- Submit a PR
+- Follow us on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
+- Join the [Discord](https://discord.com/channels/1494715843152711863)
+
+---
+
+<div align="center">
+<sub>Staten Island, NYC | Founded 2026 | Building for the vulnerable</sub>
+</div>
