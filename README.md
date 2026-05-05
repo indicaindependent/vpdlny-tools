@@ -7,6 +7,7 @@
 [![VPDLNY](https://img.shields.io/badge/VPDLNY-Mission-8B0000?style=for-the-badge)](https://osintnet.uk)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Bluesky](https://img.shields.io/badge/Follow-Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/indicaindependent.bsky.social)
 
 </div>
 
@@ -42,33 +43,61 @@ Our mission: use knowledge and information — never violence — to defend marg
 All VPDLNY tools are built on the same stack:
 
 ```
-Cloudflare Workers (edge compute, zero cold start)
-     + D1 (SQLite at edge, primary data)
-     + KV (cache, flags, rate limits)
-     + R2 (images, documents, blobs)
+Cloudflare Workers  (edge compute, zero cold start)
+     + D1           (SQLite at edge, primary data)
+     + KV           (cache, flags, rate limits)
+     + R2           (images, documents, blobs)
      + Anthropic Claude (AI reasoning)
-     + AT Protocol (Bluesky, open social)
-     + Bitcoin (sovereign payments, no middlemen)
+     + AT Protocol  (Bluesky, open social)
+     + Bitcoin      (sovereign payments, no middlemen)
 ```
 
 No AWS. No GCP. No Azure. No vendor lock-in. No surveillance capitalism.
 
 ---
 
+## Quick Deploy (Any Tool)
+
+Each tool in this org deploys as a standalone Cloudflare Worker:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/indicaindependent/<tool-name>
+cd <tool-name>
+
+# 2. Install Wrangler
+npm install -g wrangler
+wrangler login
+
+# 3. Create required D1 / KV bindings (see each repo's README)
+wrangler d1 create <db-name>
+wrangler kv namespace create <kv-name>
+
+# 4. Set secrets
+wrangler secret put ANTHROPIC_API_KEY
+
+# 5. Deploy
+wrangler deploy
+```
+
+All tools require only a **Cloudflare account (free tier)** and an **Anthropic API key**.
+
+---
+
 ## Support the Mission
 
-All tools are free. If you find them useful:
+All tools are free at the point of use. If you find them useful:
 
-**Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
+**₿ Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
 
 ---
 
 ## Get Involved
 
-- Open an issue on any tool repo
-- Submit a PR
-- Follow us on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
-- Join the [Discord](https://discord.com/channels/1494715843152711863)
+- 🐛 Open an issue on any tool repo
+- 🔧 Submit a PR — all contributions welcome
+- 🦋 Follow on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
+- 💬 Join the [Discord](https://discord.com/channels/1494715843152711863)
 
 ---
 
