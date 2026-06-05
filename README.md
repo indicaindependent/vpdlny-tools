@@ -2,7 +2,7 @@
 
 # 📚 VPDLNY Tools
 
-**Vulnerable Persons Defense League of New York — open-source intelligence toolkit**
+**VPDLNY — open-source intelligence toolkit**
 
 [![VPDLNY](https://img.shields.io/badge/VPDLNY-Mission-8B0000?style=for-the-badge)](https://osintnet.uk)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
@@ -15,7 +15,7 @@
 
 ## Who We Are
 
-**VPDLNY** (Vulnerable Persons Defense League of New York) is a collective of technologists, artists, and researchers based in New York City.
+**VPDLNY** is a collective of technologists, artists, and researchers based in New York City.
 
 Our mission: use knowledge and information — never violence — to defend marginalized and vulnerable people against powerful entities and institutions.
 
