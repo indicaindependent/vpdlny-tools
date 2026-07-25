@@ -104,3 +104,15 @@ All tools are free at the point of use. If you find them useful:
 <div align="center">
 <sub>Staten Island, NYC | Founded 2026 | Building for the vulnerable</sub>
 </div>
+
+
+---
+
+## ⚡ Support the Mission
+
+Free, ad-free, independent — no VC, no gov funding, no strings.
+
+[![Donate via SkyGive](https://img.shields.io/badge/💜_Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
+[![Lightning](https://img.shields.io/badge/⚡_tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
+
+<sub>🧡 Sovereign Lightning + on-chain via SkyGive.</sub>
