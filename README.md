@@ -27,10 +27,7 @@ Our mission: use knowledge and information — never violence — to defend marg
 
 | Tool | Description | Status |
 |------|-------------|--------|
-| [FaceHeatMap](https://faceheatmap.app) | US facial recognition contract tracker | 🟢 Live |
 | [WarHeatMap](https://warheatmap.app) | Global conflict intelligence platform | 🟢 Live |
-| [StraitTracker](https://tracker.warheatmap.app) | Strait of Hormuz geopolitical intelligence | 🟢 Live |
-| [CapWatch Public](https://osintnet.uk) | Capitol surveillance tracker | 🟢 Live |
 | [EdgeIntel](https://intel.osintnet.uk) | OSINT news aggregation platform | 🟢 Live |
 | [CF OSINT Toolkit](https://github.com/indicaindependent/cf-osint-toolkit) | Cloudflare Workers OSINT patterns | 🟢 Open Source |
 | [Bluesky Campaign Engine](https://github.com/indicaindependent/bsky-campaign-engine) | AT Protocol campaign automation | 🟢 Open Source |
