@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📚 VPDLNY Tools
+# VPDLNY TOOLS
 
-**VPDLNY — open-source intelligence toolkit**
+**Open-source intelligence and defence toolkit &#183; Vulnerable Defense League of NY**
 
 [![VPDLNY](https://img.shields.io/badge/VPDLNY-Mission-8B0000?style=for-the-badge)](https://osintnet.uk)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
@@ -13,103 +13,124 @@
 
 ---
 
-## Who We Are
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/target-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/target-light.svg" alt="" width="22" height="22" align="top"></picture> Who we are
 
-**VPDLNY** is a collective of technologists, artists, and researchers based in New York City.
+**VPDLNY** is a collective of technologists, artists and researchers based in New York City.
 
-Our mission: use knowledge and information — never violence — to defend marginalized and vulnerable people against powerful entities and institutions.
+Our mission: use knowledge and information &#8212; never violence &#8212; to defend marginalized and
+vulnerable people against powerful entities and institutions.
 
 > *Information asymmetry is how the powerful stay powerful. We close the gap.*
 
 ---
 
-## Our Tools (All Open Source)
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/stack-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/stack-light.svg" alt="" width="22" height="22" align="top"></picture> The tools
 
-| Tool | Description | Status |
-|------|-------------|--------|
-| [WarHeatMap](https://warheatmap.app) | Global conflict intelligence platform | 🟢 Live |
-| [EdgeIntel](https://intel.osintnet.uk) | OSINT news aggregation platform | 🟢 Live |
-| [CF OSINT Toolkit](https://github.com/indicaindependent/cf-osint-toolkit) | Cloudflare Workers OSINT patterns | 🟢 Open Source |
-| [Bluesky Campaign Engine](https://github.com/indicaindependent/bsky-campaign-engine) | AT Protocol campaign automation | 🟢 Open Source |
-| [VibesMom](https://github.com/indicaindependent/vibesmom) | AI mental health support bot | 🟢 Open Source |
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/charts/vpdlny-status.svg" alt="VPDLNY tools live status: twelve tools grouped by purpose with live HTTP status and measured payload size, measured 2026-09-03" width="100%">
+
+</div>
+
+**OSINT &amp; intelligence**
+
+| Tool | What it does | Live | Source |
+| :--- | :--- | :--- | :---: |
+| **[WarHeatMap](https://warheatmap.app)** | Verified conflict events on one live map | 200 &#183; 44,662 B | [repo](https://github.com/indicaindependent/warheatmap) |
+| **[EdgeIntel](https://intel.osintnet.uk)** | OSINT news aggregation at the edge | 200 &#183; 41,224 B | &#8212; |
+| **[Tuck](https://tuck.osintnet.uk)** | Congressional trade disclosure, free | 200 &#183; 81,149 B | [repo](https://github.com/indicaindependent/tuck) |
+| **[Skylens](https://skylens.osintnet.uk)** | Engagement-analytics observatory for Bluesky | 200 &#183; 15,478 B | [repo](https://github.com/indicaindependent/skylens) |
+
+**Direct help**
+
+| Tool | What it does | Live | Source |
+| :--- | :--- | :--- | :---: |
+| **[BizHer](https://bizher.osintnet.uk)** | Free NY LLC formation for women entrepreneurs | 200 &#183; 115,010 B | &#8212; |
+| **[Crisis Lifeline Bridge](https://github.com/indicaindependent/crisis-lifeline-bridge)** | Routes a person in crisis to a REAL local agency | source | [repo](https://github.com/indicaindependent/crisis-lifeline-bridge) |
+| **[VibesMom](https://github.com/indicaindependent/vibesmom)** | Mental-health support bot | source | [repo](https://github.com/indicaindependent/vibesmom) |
+
+**Open social**
+
+| Tool | What it does | Live | Source |
+| :--- | :--- | :--- | :---: |
+| **[SkyGive](https://skygive.app)** | Non-custodial Bitcoin donations, zero fee | 200 &#183; 20,171 B | [repo](https://github.com/indicaindependent/skygive) |
+| **[Blueboxd](https://blueboxd.com)** | Public-domain cinema; the diary lives in your repo | 200 &#183; 166,755 B | [repo](https://github.com/indicaindependent/blueboxd) |
+| **[Bluesky Campaign Engine](https://github.com/indicaindependent/bsky-campaign-engine)** | AT Protocol campaign automation | source | [repo](https://github.com/indicaindependent/bsky-campaign-engine) |
+
+**Security**
+
+| Tool | What it does | Live | Source |
+| :--- | :--- | :--- | :---: |
+| **[AXIOM Scanner](https://github.com/indicaindependent/axiom-scanner)** | Free read-only web-security scanner | source | [repo](https://github.com/indicaindependent/axiom-scanner) |
+| **[CF OSINT Toolkit](https://github.com/indicaindependent/cf-osint-toolkit)** | Cloudflare Workers OSINT patterns | source | [repo](https://github.com/indicaindependent/cf-osint-toolkit) |
+
+*Every status above was measured live on 2026-09-03, not asserted. Tools marked **source** are
+repositories rather than hosted services &#8212; Crisis Lifeline Bridge, for instance, is a skill
+another agent installs, not a site you visit.*
 
 ---
 
-## Architecture Philosophy
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/cpu-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/cpu-light.svg" alt="" width="22" height="22" align="top"></picture> Architecture
 
-All VPDLNY tools are built on the same stack:
+Every VPDLNY tool runs on the same stack:
 
-```
-Cloudflare Workers  (edge compute, zero cold start)
-     + D1           (SQLite at edge, primary data)
-     + KV           (cache, flags, rate limits)
-     + R2           (images, documents, blobs)
-     + Anthropic Claude (AI reasoning)
-     + AT Protocol  (Bluesky, open social)
-     + Bitcoin      (sovereign payments, no middlemen)
-```
+    Cloudflare Workers   edge compute, zero cold start
+         + D1            SQLite at the edge, primary data
+         + KV            cache, flags, rate limits
+         + R2            images, documents, blobs
+         + Anthropic     AI reasoning
+         + AT Protocol   Bluesky, open social
+         + Bitcoin       sovereign payments, no middlemen
 
-No AWS. No GCP. No Azure. No vendor lock-in. No surveillance capitalism.
+**No AWS. No GCP. No Azure. No vendor lock-in. No surveillance capitalism.**
 
----
+### Deploying one yourself
 
-## Quick Deploy (Any Tool)
-
-Each tool in this org deploys as a standalone Cloudflare Worker:
+Each tool deploys as a standalone Cloudflare Worker. Using
+[cf-osint-toolkit](https://github.com/indicaindependent/cf-osint-toolkit) as the example:
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/indicaindependent/<tool-name>
-cd <tool-name>
+git clone https://github.com/indicaindependent/cf-osint-toolkit
+cd cf-osint-toolkit
 
-# 2. Install Wrangler
 npm install -g wrangler
 wrangler login
 
-# 3. Create required D1 / KV bindings (see each repo's README)
-wrangler d1 create <db-name>
-wrangler kv namespace create <kv-name>
+# create the bindings that repo's README lists
+wrangler d1 create osint-db
+wrangler kv namespace create OSINT_CACHE
 
-# 4. Set secrets
 wrangler secret put ANTHROPIC_API_KEY
-
-# 5. Deploy
 wrangler deploy
 ```
 
-All tools require only a **Cloudflare account (free tier)** and an **Anthropic API key**.
+All you need is a **free-tier Cloudflare account** and an **Anthropic API key**.
 
 ---
 
-## Support the Mission
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-light.svg" alt="" width="22" height="22" align="top"></picture> Support the mission
 
-All tools are free at the point of use. If you find them useful:
+Every tool is free at the point of use. No VC, no government funding, no strings.
 
-**₿ Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
+[![Donate via SkyGive](https://img.shields.io/badge/Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
+[![Lightning](https://img.shields.io/badge/Lightning-tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
+
+Sovereign Lightning and on-chain, via [SkyGive](https://skygive.app) &#8212; which is itself one of
+the tools above, non-custodial and zero fee.
+
+**On-chain Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
 
 ---
 
-## Get Involved
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/globe-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/globe-light.svg" alt="" width="22" height="22" align="top"></picture> Get involved
 
-- 🐛 Open an issue on any tool repo
-- 🔧 Submit a PR — all contributions welcome
-- 🦋 Follow on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
-- 💬 Join the [Discord](https://discord.com/channels/1494715843152711863)
+- Open an issue on any tool repository
+- Submit a pull request &#8212; all contributions welcome
+- Follow on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
+- Join the Discord &#8212; *invite link pending*
 
 ---
 
 <div align="center">
-<sub>Staten Island, NYC | Founded 2026 | Building for the vulnerable</sub>
+<sub>Staten Island, NYC &#183; Founded 2026 &#183; Building for the vulnerable</sub>
 </div>
-
-
----
-
-## ⚡ Support the Mission
-
-Free, ad-free, independent — no VC, no gov funding, no strings.
-
-[![Donate via SkyGive](https://img.shields.io/badge/💜_Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
-[![Lightning](https://img.shields.io/badge/⚡_tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
-
-<sub>🧡 Sovereign Lightning + on-chain via SkyGive.</sub>
