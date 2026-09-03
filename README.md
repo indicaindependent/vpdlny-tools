@@ -129,7 +129,7 @@ Lightning address **`tips@skygive.app`** works in any Lightning wallet, and
 - Open an issue on any tool repository
 - Submit a pull request &#8212; all contributions welcome
 - Follow on [Bluesky](https://bsky.app/profile/indicaindependent.bsky.social)
-- Join the Discord &#8212; *invite link pending*
+- Join the [Discord](https://discord.osintnet.uk)
 
 ---
 
