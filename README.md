@@ -122,7 +122,7 @@ No credentials, thresholds or internal service names are published here.
 | `ghosthunter.` | Inauthenticity scoring engine. Reads an account's posting history and scores entropy, scatter and topic coherence to separate real people from manufactured ones &#8212; the detection layer behind HumanDefender. |
 
 *Every description above was derived from the deployed code on 2026-09-03, not from memory.
-One further internal surface is deliberately omitted.*
+Further internal surfaces are deliberately omitted.*
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-light.svg" alt="" width="22" height="22" align="top"></picture> Support the mission
 
