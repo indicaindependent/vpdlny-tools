@@ -108,6 +108,22 @@ All you need is a **free-tier Cloudflare account** and an **Anthropic API key**.
 
 ---
 
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/cpu-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/cpu-light.svg" alt="" width="22" height="22" align="top"></picture> The private bench
+
+These run the work behind the public tools. **They sit behind Cloudflare Access and will not
+open for you** &#8212; they are listed so the shape of the operation is honest, not as an invitation.
+No credentials, thresholds or internal service names are published here.
+
+| Surface | What it does |
+| :--- | :--- |
+| `osint.` | Research desk. Takes a topic, researches it, scores it, then composes and illustrates a post for publication. Driven from Telegram. |
+| `scanner.` | Security scanner for Base44 applications &#8212; grades an app and reports what it found. |
+| `tgscan.` | The Telegram console for the whole toolkit: run a scan, pull intel, query the WarHeatMap tracker, list what is available. |
+| `ghosthunter.` | Inauthenticity scoring engine. Reads an account's posting history and scores entropy, scatter and topic coherence to separate real people from manufactured ones &#8212; the detection layer behind HumanDefender. |
+
+*Every description above was derived from the deployed code on 2026-09-03, not from memory.
+One further internal surface is deliberately omitted.*
+
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-light.svg" alt="" width="22" height="22" align="top"></picture> Support the mission
 
 Every tool is free at the point of use. No VC, no government funding, no strings.
