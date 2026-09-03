@@ -112,13 +112,15 @@ All you need is a **free-tier Cloudflare account** and an **Anthropic API key**.
 
 Every tool is free at the point of use. No VC, no government funding, no strings.
 
-[![Donate via SkyGive](https://img.shields.io/badge/Donate_via_SkyGive-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
+[![Donate via SkyGive](https://img.shields.io/badge/Donate-donate.skygive.app-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
 [![Lightning](https://img.shields.io/badge/Lightning-tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
 
-Sovereign Lightning and on-chain, via [SkyGive](https://skygive.app) &#8212; which is itself one of
-the tools above, non-custodial and zero fee.
+**One donation path: [donate.skygive.app](https://donate.skygive.app/)** &#8212; a sovereign
+Bitcoin Lightning tips node running on our own infrastructure. Non-custodial, zero fee, no KYC,
+no middleman taking a cut. Every other tip link we publish resolves here.
 
-**On-chain Bitcoin:** `bc1qyrtasy0naxauhf3yeg05ztu2x5vmx9jxjzsq2a`
+Lightning address **`tips@skygive.app`** works in any Lightning wallet, and
+[SkyGive](https://skygive.app) is itself one of the tools listed above.
 
 ---
 
