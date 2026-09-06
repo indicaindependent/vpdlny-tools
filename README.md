@@ -47,7 +47,6 @@ vulnerable people against powerful entities and institutions.
 | :--- | :--- | :--- | :---: |
 | **[BizHer](https://bizher.osintnet.uk)** | Free NY LLC formation for women entrepreneurs | 200 &#183; 115,010 B | &#8212; |
 | **[Crisis Lifeline Bridge](https://github.com/indicaindependent/crisis-lifeline-bridge)** | Routes a person in crisis to a REAL local agency | source | [repo](https://github.com/indicaindependent/crisis-lifeline-bridge) |
-| **[VibesMom](https://github.com/indicaindependent/vibesmom)** | Mental-health support bot | source | [repo](https://github.com/indicaindependent/vibesmom) |
 
 **Open social**
 
