@@ -28,7 +28,7 @@ vulnerable people against powerful entities and institutions.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/charts/vpdlny-status.svg" alt="VPDLNY tools live status: twelve tools grouped by purpose with live HTTP status and measured payload size, measured 2026-09-03" width="100%">
+<img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/charts/vpdlny-status.svg" alt="VPDLNY tools live status: eleven tools grouped by purpose with live HTTP status and measured payload size, measured 2026-09-03" width="100%">
 
 </div>
 
@@ -53,7 +53,6 @@ vulnerable people against powerful entities and institutions.
 | Tool | What it does | Live | Source |
 | :--- | :--- | :--- | :---: |
 | **[SkyGive](https://skygive.app)** | Non-custodial Bitcoin donations, zero fee | 200 &#183; 20,171 B | [repo](https://github.com/indicaindependent/skygive) |
-| **[removed-project](https://removed-project.com)** | Public-domain cinema; the diary lives in your repo | 200 &#183; 166,755 B | [repo](https://github.com/indicaindependent/removed-project) |
 | **[Bluesky Campaign Engine](https://github.com/indicaindependent/bsky-campaign-engine)** | AT Protocol campaign automation | source | [repo](https://github.com/indicaindependent/bsky-campaign-engine) |
 
 **Security**
