@@ -122,19 +122,11 @@ No credentials, thresholds or internal service names are published here.
 *Every description above was derived from the deployed code on 2026-09-03, not from memory.
 Further internal surfaces are deliberately omitted.*
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-light.svg" alt="" width="22" height="22" align="top"></picture> Support the mission
+## <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-dark.svg"><img src="https://raw.githubusercontent.com/indicaindependent/vpdlny-tools/main/assets/icons/bolt-light.svg" alt="" width="22" height="22" align="top"></picture> Donations
 
-Every tool is free at the point of use. No VC, no government funding, no strings.
+We don't monetize and we don't accept donations. If you have money to give away, you don't need our services. Give it to Ukraine's defense instead: https://u24.gov.ua/donate/defense
 
-[![Donate via SkyGive](https://img.shields.io/badge/Donate-donate.skygive.app-8A5CF6?style=for-the-badge&logoColor=white)](https://donate.skygive.app/)
-[![Lightning](https://img.shields.io/badge/Lightning-tips@skygive.app-F7931A?style=for-the-badge&logo=lightning&logoColor=white)](https://donate.skygive.app/)
-
-**One donation path: [donate.skygive.app](https://donate.skygive.app/)** &#8212; a sovereign
-Bitcoin Lightning tips node running on our own infrastructure. Non-custodial, zero fee, no KYC,
-no middleman taking a cut. Every other tip link we publish resolves here.
-
-Lightning address **`tips@skygive.app`** works in any Lightning wallet, and
-[SkyGive](https://skygive.app) is itself one of the tools listed above.
+[![Donate to Ukraine's defense (UNITED24)](https://img.shields.io/badge/Donate_to_Ukraine%27s_defense_(UNITED24)-0057B7?style=for-the-badge)](https://u24.gov.ua/donate/defense)
 
 ---
 
